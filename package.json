@@ -1,0 +1,31 @@
+{
+  "name": "node.js-restful-apis-with-json-web-tokens",
+  "version": "1.0.0",
+  "description": "Authentication of HTTP requests using JWT tokens in your Node.js applications.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sagardere/Node.js-RESTful-APIs-with-JSON-Web-Tokens.git"
+  },
+  "keywords": [
+    "jwt",
+    "authentication"
+  ],
+  "author": "Dere Sagar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sagardere/Node.js-RESTful-APIs-with-JSON-Web-Tokens/issues"
+  },
+  "homepage": "https://github.com/sagardere/Node.js-RESTful-APIs-with-JSON-Web-Tokens#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "jsonwebtoken": "^7.4.1",
+    "mongoose": "^4.8.5"
+  }
+}
